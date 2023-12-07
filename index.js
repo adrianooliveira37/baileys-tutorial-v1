@@ -165,7 +165,7 @@ app.get("/send-message", async (req, res) => {
         response: "El numero no existe",
       });
     } else {
-      numberWA = "591" + number + "@s.whatsapp.net";
+      numberWA = "55" + number + "@s.whatsapp.net";
    
       if (isConnected()) {
 
